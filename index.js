@@ -34,5 +34,5 @@ io.on('connection', (socket) => {
   });
 });
 
-const PORT = process.env.PORT || "https://react2-backend.onrender.com";
+const PORT = process.env.PORT || 4000;
 server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
