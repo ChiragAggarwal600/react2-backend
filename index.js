@@ -7,7 +7,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIo(server, {
   cors: {
-    origin: "http://localhost:5173",  // Allow requests from this origin
+    origin: "https://react2-frontend.onrender.com/",  // Allow requests from this origin
     methods: ["GET", "POST"]
   }
 });
